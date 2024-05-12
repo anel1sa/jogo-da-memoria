@@ -28,7 +28,7 @@ const checkEndGame = () =>{
     const disabledCards = document.querySelectorAll('.disabled-card');
     if(disabledCards.length == 20){
         clearInterval(this.loop);
-        alert(`Parabéns ${spanPlayer.innerHTML}(meu anjinho)! Por ganhar e pelo seu aniversário`);
+        alert(`Parabéns ${spanPlayer.innerHTML}!`);
     }
 }
 
